@@ -71,7 +71,8 @@ mean(floor_plan).
 
 
 % 3. Inspecting the suspects, we discover that Patrick (who was with Rosie, a maid), Gregory and Edward (they left the manor at half past eight) 
-% have alibi, rest do not. Rebecca found butler leave the room early that afternoon (the day of investigation) and seemed a bit startled when he saw Rebecca.
+% have alibi, rest do not. Rebecca found butler leave the room early that afternoon (the day of investigation) and seemed a bit startled 
+% when he saw Rebecca.
 
 alibi(patrick). alibi(gregory). alibi(edward). 
 
@@ -127,7 +128,4 @@ murderer(X):-
 	opportunity(X,Z),
 	writemmo(X,Y,Z).
 	
-	
-
-
 
